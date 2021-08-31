@@ -31,9 +31,6 @@
     padding: 0;
     margin: 0;
 }
-#menu li{
-    display: inline-block;
-}
 #menu li a{
     color: white;
     /* border: 2px solid black; */
@@ -158,4 +155,23 @@
 .last-footer li a{
     color: white;
     font-size: 23px;
+}
+
+
+@media (max-width:768px){
+    #logo{
+        /* text-align: center; */
+    }
+    .testimonials{
+        text-align: center;
+    }
+    .last-footer{
+        text-align: center;
+    }
+    .footer .col-md-4{
+        margin-bottom: 20px;
+    }
+    .banner-title{
+        padding-top: 5rem;
+    }
 }
